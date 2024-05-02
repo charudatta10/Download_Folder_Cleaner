@@ -1,3 +1,4 @@
+#!python
 import os
 import shutil
 from datetime import datetime, timedelta
@@ -29,13 +30,13 @@ def main():
     match text:
         case "Images":
             dest_directory = f"C:/Users/{user_name}/Pictures"
-            list_ext = ['.png','.jpg','.jpeg','.svg','.ico']
+            list_ext = ['.png','.jpg','.jpeg','.svg','.ico','.webp','.drawio','.gif','.excalidraw','.eps','.avif','.excalidrawlib']
         case "PDFs":
             dest_directory = f"C:/Users/{user_name}/Downloads/PDFs"
-            list_ext = ['.pdf','.epub']
+            list_ext = ['.pdf','.epub','.md','.txt','.bib','.tex','.ris','.html']
         case "Archives":
             dest_directory = f"C:/Users/{user_name}/Downloads/Archives"
-            list_ext = ['.zip','.tar','.tar.gz','.gz']
+            list_ext = ['.zip','.tar','.tar.gz','.gz','.7z','.rar','.tgz']
         case "Apps":
             dest_directory = f"C:/Users/{user_name}/Downloads/Apps"
             list_ext = ['.exe','.bat','.msi']
@@ -47,7 +48,7 @@ def main():
             list_ext = ['.mp4']
         case "Office":
             dest_directory = f"C:/Users/{user_name}/Downloads/Office"
-            list_ext = ['.docx','.pptx','.doc','.ppt','.xlsx','.xls','.odt']
+            list_ext = ['.docx','.pptx','.doc','.ppt','.xlsx','.xls','.odt','.odg']
 
     return dest_directory,list_ext
 
