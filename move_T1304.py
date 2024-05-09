@@ -3,6 +3,7 @@ import os
 import shutil
 from datetime import datetime, timedelta
 import pathlib
+import uuid
 
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import WordCompleter
@@ -102,6 +103,8 @@ class cleanup_directory:
     def move_file(self, list_ext):
         if self.file_ext in list_ext:
             destination_path = os.path.join(self.dest_directory, self.filename)
+            if(os.path.exists(destination_path)):
+                destination_path = destination_path + str(uuid.uuid4())
             shutil.move(self.file_path, destination_path)
             print(f"Moved '{self.filename}' to '{self.dest_directory}'")
 
