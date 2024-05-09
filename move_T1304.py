@@ -103,8 +103,12 @@ class cleanup_directory:
     def move_file(self, list_ext):
         if self.file_ext in list_ext:
             destination_path = os.path.join(self.dest_directory, self.filename)
-            if(os.path.exists(destination_path)):
-                destination_path = destination_path + str(uuid.uuid4())
+            file_name, file_ext = os.path.splitext(self.filename)
+            file_version = 0
+            while(os.path.exists(destination_path)):
+                new_file_name = file_name + f"_v{file_version}"+ file_ext
+                destination_path = os.path.join(self.dest_directory, new_file_name)
+                file_version = file_version + 1
             shutil.move(self.file_path, destination_path)
             print(f"Moved '{self.filename}' to '{self.dest_directory}'")
 
