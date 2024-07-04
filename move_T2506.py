@@ -76,6 +76,9 @@ if __name__ == "__main__":
     while True:
         cdo.get_dest_dir()
         cdo.move_files()
-        val = input("Enter C to exit")
-        break
+        val = input("Enter source directory continue or C to exit")
+        if val == "c" or val == "C":
+            break
+        else:
+            cdo.source_directory = val
 
