@@ -38,5 +38,6 @@
     ".xlsx": "C:/Users/{user_name}/Downloads/Office",
     ".xls": "C:/Users/{user_name}/Downloads/Office",
     ".odt": "C:/Users/{user_name}/Downloads/Office",
-    ".odg": "C:/Users/{user_name}/Downloads/Office"
+    ".odg": "C:/Users/{user_name}/Downloads/Office",
+    ".xcf": "C:/Users/{user_name}/Pictures"
 }
