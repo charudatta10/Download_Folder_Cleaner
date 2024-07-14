@@ -12,7 +12,7 @@ if input("Do you want create directories? ")== "y":
 
         
 if input("Do you want to create files? ")== "y":
-    list_files = [".getattribute", ".gitignore", "license", "main.py", "requirement.txt"]
+    list_files = ["license", "main.py", "requirements.txt"]
     for file in list_files:
         if not os.path.exists(file):
             print('Creating Files: ' + file)
