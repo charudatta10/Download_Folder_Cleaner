@@ -1,4 +1,4 @@
-![Readme](./Designer%20(3).png)
+![Readme](docs/assets/img/Designer%20(3).png)
 
 # improved-barnacle
 
@@ -37,7 +37,7 @@ gh repo clone charudatta10/improved-barnacle
  
 # Usage
 
-![Demo Preview](./Screenshot_usecase.png)
+![Demo Preview](docs/assets/img/Screenshot_usecase.png)
 
 # Support
 
@@ -51,7 +51,7 @@ The contribution to this project should adhere to GPL-3.0 and respect the copyri
 # License
 
 Copyright © 2024 charudatta10.   
-The project is licensed [GPL-3.0](./LICENSE).
+The project is licensed [GPL-3.0](LICENSE).
 
 
 
