@@ -12,7 +12,7 @@ if input("Do you want create directories? ")== "y":
 
         
 if input("Do you want to create files? ")== "y":
-    list_files = [".getattribute", ".gitignore", "license", "main.py", "requirement.txt"]
+    list_files = [".gitattributes", ".gitignore", "license", "main.py", "requirements.txt"]
     for file in list_files:
         if not os.path.exists(file):
             print('Creating Files: ' + file)
@@ -32,11 +32,11 @@ if input("Is readme and readmex needed to be generated? ")== "y":
     subprocess.run(["python", "C:/Users/chaitrali/Documents/GitHub/readme-generator/src/readme_generator.py"])
     
 if input("Do you want to create assets directories? ")== "y":
-    list_dirs = ["docs/assets","docs/assets/css", "docs/assets/img", "docs/assets/js"]
+    list_dirs = ["docs/assets/css", "docs/assets/img", "docs/assets/js"]
     for dir in list_dirs:
         if not os.path.exists(dir):
             print('Creating Directory: ' + dir)
-            os.mkdir(dir) 
+            os.makedirs(dir) 
 
 if input("Do you want to create initial commit? ")== "y":
     subprocess.run(["git", "add","."])
