@@ -1,5 +1,5 @@
 #    <Project Name> <Project Discription> 
-#    Copyright 2024 Charudatta
+#    Copyright © 2024 Charudatta
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
