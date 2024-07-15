@@ -1,53 +1,57 @@
-from jinja2 import Template
-from config_file_gen import ConfigGen
+![Readme](docs/assets/img/Designer%20(3).png)
+
+# improved-barnacle
+
+cleanup Python script.  
+The project cleans the download folder moving files to respective folders based on extensions. 
+
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/improved-barnacle?include_prereleases)](https://img.shields.io/github/v/release/charudatta10/improved-barnacle?include_prereleases)
+[![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)
+[![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)
+[![GitHub](https://img.shields.io/github/license/charudatta10/improved-barnacle)](https://img.shields.io/github/license/charudatta10/improved-barnacle)
+
+ <!---
+# Table of Contents
+
+This is a table of contents for your project. It helps the reader navigate through the README quickly.
+- [improved barnacle](#improved-barnacle)
+- [Quick Start Demo](#quick-start-demo)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Contribute](#contribute)
+- [License](#license)
+--->
+# Installation
+
+1. To install from binaries:  
+   Download the binary file from the release and double-click to use it.
+
+2. To install from source:
+
+```PowerShell
+gh repo clone charudatta10/improved-barnacle
+```
+ 
+# Usage
+
+![Demo Preview](docs/assets/img/Screenshot_usecase.png)
+
+# Support
+
+create a pull request for support. 
+
+# Authors and Contribution guidelines
+
+The author of this project is @charudatta10.  
+The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
+
+# License
+
+Copyright © 2024 charudatta10.   
+The project is licensed [GPL-3.0](LICENSE).
 
 
-class ReadmeGen:
 
-    def __init__(self) -> None:
-        self.template_path = __file__
-        
-    def add_template(self):
-        with open(self.template_path, mode='r',encoding="utf-8") as template_file:
-            template_content = template_file.read()
-        # Create a Jinja2 template
-        self.template = Template(template_content)   
-        
-    def add_config(self):
-        config = ConfigGen()
-        config.get_data()
-        self.data = config.get_config()
-
-    def gen_str(self):
-        self.doc = self.template.render(**self.data)
-
-    def gen_file(self):
-        with open("readme.md", "w+", encoding="utf-8") as f:
-            f.write(self.doc)
-
-    def main(self):
-        self.add_template()
-        self.add_config()
-        self.gen_str()
-        self.gen_file()
-        self.ppt_gen()
-
-    def ppt_gen(self):
-        file_content = """---
-marp: true
-size: 16:9
-headingDivider:
-  - 1
-  - 2
-  - 3
-  - 4
-  - 6
-theme: gaia
----""" + self.doc
-
-        with open("readmex.md", 'w+',encoding="utf-8") as f:
-            f.write(file_content)
-
-if __name__ == "__main__":
-    readme = ReadmeGen()  
-    readme.main()
