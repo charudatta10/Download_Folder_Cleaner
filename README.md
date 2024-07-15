@@ -9,7 +9,7 @@ The project cleans the download folder moving files to respective folders based 
 [![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)
 [![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)
-[![GitHub](https://img.shields.io/github/license/charudatta10/improved-barnacle)](https://img.shields.io/github/license/charudatta10/improved-barnacle)
+[![GitHub](https://img.shields.io/github/license/charudatta10/improved-barnacle)](https://img.shields.io/github/license/charudatta10/ideal-octo-engine)
 
  <!---
 # Table of Contents
