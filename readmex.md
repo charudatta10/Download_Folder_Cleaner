@@ -1,4 +1,14 @@
-from jinja2 import Template
+---
+marp: true
+size: 16:9
+headingDivider:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 6
+theme: gaia
+---from jinja2 import Template
 from config_file_gen import ConfigGen
 
 
