@@ -54,7 +54,7 @@ class cleanup_directory:
 
     def get_dest_dir(self):
         user_name = os.getlogin()
-        with open(pathlib.Path.joinpath(__file__,"list.json",'r') as f:
+        with open(pathlib.Path.joinpath(__file__,"list.json"),'r') as f:
             l = json.load(f)
         d ={}
         for key,values in l.items():
