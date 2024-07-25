@@ -15,5 +15,38 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 #    email contact: 152109007c@gmailcom
-# 
+#    
+
+
+if ('y' -eq (Read-Host "Is repo git version controlloed? y/n ")) 
+{
+    git init
+
+}
+
+
+if ('y' -eq (Read-Host "Do you want to customize readme? y/n ")) 
+{
+    python C:/Users/chaitrali/Documents/GitHub/readme-generator
+
+}    
+
+if ('y' -eq (Read-Host "Do you want to create initial commit? y/n ")) 
+{
+    git add .
+    git commit -m "initial commit"
+
+}
+
+
+        
+ 
+
+
+
+
+
+
+
+
 
