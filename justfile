@@ -31,6 +31,7 @@ doc:
     #!pwsh
     conda activate blog
     p -m mkdocs new .
+    
 readme:
     python C:/Users/chaitrali/Documents/GitHub/readme-generator
 
