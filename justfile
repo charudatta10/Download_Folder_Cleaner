@@ -1,4 +1,4 @@
-#    <one line to give the program's name and a brief idea of what it does.> 
+#    <one line to give the program's name and a brief idea of what it does.>  
 #    Copyright © 2024 Charudatta
 #
 #    This program is free software: you can redistribute it and/or modify
@@ -15,38 +15,46 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 #    email contact: 152109007c@gmailcom
-#    
 
+set windows-shell := ["pwsh.exe", "-NoLogo", "-Command"]
 
-if ('y' -eq (Read-Host "Is repo git version controlloed? y/n ")) 
-{
+default:
+    just --list --unsorted
+
+init:
     git init
 
-}
+config:
+    dynaconf init -f json 
 
-
-if ('y' -eq (Read-Host "Do you want to customize readme? y/n ")) 
-{
+doc:
+    #!pwsh
+    conda activate blog
+    p -m mkdocs new .
+readme:
     python C:/Users/chaitrali/Documents/GitHub/readme-generator
 
-}    
-
-if ('y' -eq (Read-Host "Do you want to create initial commit? y/n ")) 
-{
+commit message="init":
+    #!pwsh
     git add .
-    git commit -m "initial commit"
+    git commit -m {{message}}
 
-}
-
-
-        
- 
-
-
-
-
-
-
-
-
+cgan:
+    #!pwsh
+    cd src
+    conda activate w
+    p RunGAN.py
+    
+###################
+#alias b := build
+#build:
+#  echo 'Building!'
+#hi: 
+#   echo "hi"; echo "bye"
+#bye:
+#   #!pwsh
+#   echo "hi"
+#   echo "bye"
+#call inpt: bye
+#   echo {{inpt}}
 
