@@ -1,4 +1,4 @@
-from src.move_T2506 import cleanup_directory
+from src.move_file import cleanup_directory
 import os
 cdo = cleanup_directory()
 user_name = os.getlogin()
