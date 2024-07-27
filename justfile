@@ -25,7 +25,7 @@ init:
     #!pwsh
     git init
     New-Item -ItemType "file" -Path ".gitattribute", "main.py", "requirement.txt"
-    New-Item -ItemType "directory" -Path "archive", "data", "src", "test"
+    New-Item -ItemType "directory" -Path "archives", "data", "src", "test"
     New-Item -ItemType "file" -Path .\* -Name "__init__.py" -ErrorAction SilentlyContinue
     New-Item -ItemType "directory" -Path "docs/assets","docs/assets/css", "docs/assets/img", "docs/assets/js" -Force
     gig gen python > .gitignore 
