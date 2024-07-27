@@ -56,6 +56,10 @@ exe file_name:
 
 #########-ADD-Custom-Tasks-Here-##################
 
+move:
+    #!pwsh
+    p src/move_file.py
+
 
 
 
