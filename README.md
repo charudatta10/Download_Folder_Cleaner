@@ -7,9 +7,9 @@
 ![commits](https://flat.badgen.net/github/commits/charudatta10/improved-barnacle)
 ![last-commit](https://flat.badgen.net/github/last-commit/charudatta10/improved-barnacle)  
 
-[![sponsor](https://flat.badgen.net//static/sponsor/‪‪🤍‬)](https://github.com/sponsors/charudatta10)
-[![contact](https://flat.badgen.net//static/contact/💬‬)](https://charudatta10.github.io/LinkNet/)
-[![work](https://flat.badgen.net//static/portfolio/📑)](https://charudatta10.github.io/myblog/)
+[![sponsor](https://flat.badgen.net//static/sponsor/%E2%9D%A4‬)](https://github.com/sponsors/charudatta10)
+[![contact](https://flat.badgen.net//static/contact/%E2%98%8E)](https://charudatta10.github.io/LinkNet/)
+[![work](https://flat.badgen.net//static/portfolio/%F0%9F%96%BF)](https://charudatta10.github.io/myblog/)
 ![work](https://flat.badgen.net///static/project/improved-barnacle)
 
 <!-- Badges: Tools used -->
