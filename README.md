@@ -1,57 +1,32 @@
-![Readme](docs/assets/img/Designer%20(3).png)
-
+ 
 # improved-barnacle
 
-cleanup Python script.  
-The project cleans the download folder moving files to respective folders based on extensions. 
+<!-- Badges: Project Status GitHub -->
+![license](https://badgen.net/static/license/GPL-3.0/blue)
+![release](https://badgen.net/github/release/charudatta10/improved-barnacle)
+![commits](https://badgen.net/github/commits/charudatta10/improved-barnacle)
+![last-commit](https://badgen.net/github/last-commit/charudatta10/improved-barnacle)
 
-[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/charudatta10/improved-barnacle?include_prereleases)](https://img.shields.io/github/v/release/charudatta10/improved-barnacle?include_prereleases)
-[![GitHub last commit](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)](https://img.shields.io/github/last-commit/charudatta10/improved-barnacle)
-[![GitHub issues](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-raw/charudatta10/improved-barnacle)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)](https://img.shields.io/github/issues-pr/charudatta10/improved-barnacle)
-[![GitHub](https://img.shields.io/github/license/charudatta10/improved-barnacle)](https://img.shields.io/github/license/charudatta10/improved-barnacle)
+<!-- Badges: Tools used -->
+`python` `just` `gig` 
 
- <!---
-# Table of Contents
+## Documentation 🗎
 
-This is a table of contents for your project. It helps the reader navigate through the README quickly.
-- [improved barnacle](#improved-barnacle)
-- [Quick Start Demo](#quick-start-demo)
-- [Table of Contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Development](#development)
-- [Contribute](#contribute)
-- [License](#license)
---->
-# Installation
+cleanup Python script.    
 
-1. To install from binaries:  
-   Download the binary file from the release and double-click to use it.
+### Features 🌟
 
-2. To install from source:
-
-```PowerShell
-gh repo clone charudatta10/improved-barnacle
-```
+- extension based grouping of files. 
  
-# Usage
 
-![Demo Preview](docs/assets/img/Screenshot_usecase.png)
+## Getting Started 🌱
 
-# Support
+Run `just` cmd in command prompt.
 
-create a pull request for support. 
+✨[Report a 🐛 or Request a ⭐](https://github.com/charudatta10/improved-barnacle/issues)✨
 
-# Authors and Contribution guidelines
+Contact me at [`Link Net`](https://charudatta10.github.io/LinkNet/).
 
-The author of this project is @charudatta10.  
-The contribution to this project should adhere to GPL-3.0 and respect the copyright claims of charudatta10.
+Copyright :copyright: 2024 CK :tm: @ charudatta10.   
 
-# License
-
-Copyright © 2024 charudatta10.   
-The project is licensed [GPL-3.0](LICENSE).
-
-
-
+<!-- Acknowledgment, References, Misc -->
