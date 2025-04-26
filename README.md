@@ -1,4 +1,18 @@
- 
+ > [!IMPORTANT]
+> Read the follwing notices before contribtuing to this project.
+
+> [!CAUTION]  
+> Project Archived
+
+> [!WARNING]
+> This project, [Readme Generator](https://github.com/charudatta10/readme-generator), has been archived and is no longer maintained. 
+
+> [!TIP]
+> For future developments and improvements, please refer to project: [Task Runner SDLC](https://github.com/charudatta10/task-runner-SDLC).
+
+> [!NOTE]
+> Thank you for your support and contributions!
+
 # Download Folder Cleaner
 
 <!-- Badges: Project Status GitHub -->
